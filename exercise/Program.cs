@@ -37,4 +37,19 @@ Console.WriteLine($"{sum:f2}");
 }
 }
 
+using System;
+
+namespace MilesToKm
+{
+public class StartUp
+{
+public static void Main(string[] args)
+{
+var miles = double.Parse(Console.ReadLine());
+double km = miles * 1.60934;
+Console.WriteLine($"{km:F2}");
+}
+}
+}
+
 
