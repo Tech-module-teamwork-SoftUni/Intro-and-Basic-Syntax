@@ -20,3 +20,21 @@ namespace IntroandBasicSyntax
         
     }
 
+using System;
+
+namespace RectangleArea
+{
+public class StartUp
+{
+public static void Main(string[] args)
+{
+var width = double.Parse(Console.ReadLine());
+var height = double.Parse(Console.ReadLine());
+var sum = width * height;
+Console.WriteLine($"{sum:f2}");
+
+}
+}
+}
+
+
